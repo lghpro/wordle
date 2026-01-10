@@ -1,0 +1,56 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 230px;
+  gap: 5px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyboard-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: bold;
+  width: 50px;
+  height: 60px;
+  background-color: #818384;
+  color: black;
+  border-radius: 5px;
+}
+
+.keyboard-ENTER {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: small;
+  font-weight: bold;
+  width: 80px;
+  height: 60px;
+  background-color: #818384;
+  color: black;
+  border-radius: 5px;
+}
+
+.keyboard-BKSP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 60px;
+  background-color: #818384;
+  border-radius: 5px;
+}
+
+.keyboard-BKSP img {
+  width: 40px;
+  height: 40px;
+}

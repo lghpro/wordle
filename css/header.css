@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #3a3a3c;
+  margin-bottom: 10px;
+  height: 70px;
+}
+
+.menu-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  padding-left: 5px;
+}
+
+.menu-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.menu-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5px;
+}
+
+.menu-right img {
+  width: 30px;
+  padding-right: 3px;
+}
