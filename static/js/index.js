@@ -73,7 +73,6 @@ function appStart() {
   };
 
   window.addEventListener("keydown", handleKeydown);
-  thisBlock.addEventListener("click", handleclick);
 }
 
 appStart();
